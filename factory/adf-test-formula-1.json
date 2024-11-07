@@ -1,0 +1,9 @@
+{
+	"name": "adf-test-formula-1",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2c6cc026-44cf-4888-9195-2b44eac3b81f",
+		"tenantId": "bc093453-11de-4a0c-9d64-e8662b06c433"
+	}
+}
