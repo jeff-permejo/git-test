@@ -1,0 +1,14 @@
+{
+	"name": "fabricadls",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://fabricstorageph.dfs.core.windows.net/"
+		},
+		"connectVia": {
+			"referenceName": "my-own",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
