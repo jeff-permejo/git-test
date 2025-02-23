@@ -1,0 +1,17 @@
+{
+	"name": "mysqlserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "jeffpermejo.database.windows.net",
+			"database": "sql-jeff",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sqladmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDU0OTUxQzNDLTY5REQtNEFDRC05N0QyLTA1Mjk5NzIzQkM3Rl8wMzk2MjBlMS04NDJjLTQxNzItOWE0Ni05NzkxMzM3OTI5MjAiDQp9"
+		}
+	}
+}
